@@ -18,7 +18,7 @@ nsplit = nltksplit.split_text(input)
 from langchain.vectorstores import Chroma
 from langchain.embeddings.openai import OpenAIEmbeddings
 import os
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'YOUR_OPENAI_APIKEY'
 
 embed = OpenAIEmbeddings()
 
